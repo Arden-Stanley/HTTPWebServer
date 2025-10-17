@@ -1,4 +1,3 @@
-project(HTTPServer)
+project(http_server)
 
-add_executable(HTTPServer main.cpp)
-
+add_executable(http_server server.c server_socket.c)
